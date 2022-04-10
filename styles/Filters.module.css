@@ -1,0 +1,23 @@
+.filter {
+  padding: 2px 8px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.activeFilter {
+  padding: 2px 14px;
+  cursor: pointer;
+  border: 1px solid var(--border-color);
+  background-color: var(--filter-color);
+  border-radius: 12px;
+  color: var(--text-color);
+}
+
+.chipContainer {
+  margin-bottom: 20px;
+}
+
+.filterHeading {
+  margin-right: 25px;
+}
